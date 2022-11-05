@@ -1,0 +1,33 @@
+.AboutUs {
+  z-index: -1;
+  background-color: #70bdf2;
+  padding: 24px;
+  height: calc(100vh - 80px);
+}
+
+.return-button {
+  outline: 2px solid white;
+  padding: 2px 4px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: white;
+}
+
+.AboutUs-title {
+  display: flex;
+  color: white;
+  font-size: 60px;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0px;
+  font-weight: 800;
+}
+
+.AboutUs-description {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 600;
+}

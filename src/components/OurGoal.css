@@ -1,0 +1,23 @@
+.OurGoal {
+  background-color: #70bdf2;
+  height: calc(100vh - 80px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.OurGoal-title {
+  font-size: 48px;
+  font-weight: 800;
+  color: white;
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.OurGoal-description {
+  color: white;
+  font-weight: 600;
+  font-size: 18px;
+  text-align: center;
+}

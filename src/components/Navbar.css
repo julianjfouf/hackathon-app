@@ -1,0 +1,87 @@
+.navbar {
+  height: 80px;
+  z-index: 9999 !important;
+  background-color: #70bdf2;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 20px 0px 20px;
+}
+
+.navbar-title {
+  color: white;
+  font-size: 20px;
+}
+
+.navbar-logo {
+  object-fit: contain;
+  width: 10%;
+}
+
+.menu-bar {
+  cursor: pointer;
+  height: 50px;
+  width: 50px;
+  color: white;
+}
+
+.menu-exit {
+  cursor: pointer;
+  height: 50px;
+  width: 50px;
+  color: white;
+}
+
+.navbar-list-none {
+  position: absolute;
+  opacity: 0;
+  visibility: hidden;
+  display: none;
+  transform: translateY(-750px) !important;
+  transition: all 600ms ease;
+}
+
+.navbar-list {
+  position: absolute;
+  left: 0;
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  list-style-type: none;
+  visibility: visible;
+  transform: translateY(67px);
+  transition: all 600ms ease;
+  background-color: #70bdf2;
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+}
+
+.navbar-links {
+  padding: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.navbar-link {
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.navbar-links:hover {
+  background-color: white;
+  transition: all 300ms ease;
+}
+
+.navbar-links:hover .navbar-link {
+  color: lightblue;
+  transition: all 300ms ease;
+}

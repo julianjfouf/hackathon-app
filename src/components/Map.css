@@ -1,0 +1,120 @@
+.mapMap {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  transform: translateY(-60px);
+}
+
+.map-mapName {
+  font-size: 24px;
+  font-weight: 600;
+  margin-left: 20px;
+}
+
+.map-schoolMap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  object-fit: contain;
+  max-width: 90%;
+  width: 100%;
+  margin-top: 40px;
+  margin-left: 20px;
+  border-radius: 12px;
+}
+
+.mapPin1 {
+  position: absolute;
+  color: #0077b6;
+  transform: scale(2) translate(157px, 90px);
+  cursor: pointer;
+}
+
+/* @keyframes pop {
+  0% {
+    transform: scale(1);
+    transform: translate(315px, 180px);
+  }
+  50% {
+    transform: scale(1.5);
+    transform: translate(315px, 180px);
+  }
+  100% {
+    transform: scale(1);
+    transform: translate(315px, 180px);
+  }
+} */
+
+.mapPin2 {
+  position: absolute;
+  color: #0077b6;
+  transform: scale(2) translate(157px, 200px);
+  cursor: pointer;
+  transition: all 300ms ease;
+}
+
+.mapPin3 {
+  position: absolute;
+  color: #0077b6;
+  transform: scale(2) translate(71px, 197px);
+  cursor: pointer;
+}
+
+.mapPin4 {
+  position: absolute;
+  color: #0077b6;
+  transform: scale(2) translate(90px, 225px);
+  cursor: pointer;
+}
+
+.pin1Info {
+  position: absolute;
+  background-color: white;
+  transform: translate(250px, 115px);
+  color: black;
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 4px;
+}
+
+.pin2Info {
+  position: absolute;
+  background-color: white;
+  transform: translate(250px, 335px);
+  color: black;
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 4px;
+}
+
+.pin3Info {
+  position: absolute;
+  background-color: white;
+  transform: translate(85px, 330px);
+  color: black;
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 4px;
+}
+
+.pin4Info {
+  position: absolute;
+  background-color: white;
+  transform: translate(165px, 385px);
+  color: black;
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 4px;
+}
+
+.pin1Title {
+  font-weight: 600;
+  font-size: 14px;
+  margin-bottom: 4px;
+  text-align: center;
+}
+
+.pin1Data {
+  font-size: 12px;
+}
